@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4531E4002BDE7DBD0058B1AA /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4531E3FF2BDE7DBD0058B1AA /* MainController.swift */; };
+		4531E4022BDE7DCB0058B1AA /* AnalyticsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4531E4012BDE7DCB0058B1AA /* AnalyticsController.swift */; };
+		4531E4042BDE7DEA0058B1AA /* AddNewSugarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4531E4032BDE7DEA0058B1AA /* AddNewSugarController.swift */; };
+		4531E4062BDE7E040058B1AA /* DiaryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4531E4052BDE7E040058B1AA /* DiaryController.swift */; };
+		4531E4082BDE7E230058B1AA /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4531E4072BDE7E230058B1AA /* SettingsController.swift */; };
+		4531E40A2BDE93450058B1AA /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4531E4092BDE93450058B1AA /* WelcomeScreen.swift */; };
 		45A627142BDA806B00F23DB0 /* DiabetesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A627132BDA806B00F23DB0 /* DiabetesApp.swift */; };
 		45A627162BDA806B00F23DB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A627152BDA806B00F23DB0 /* ContentView.swift */; };
 		45A627182BDA806D00F23DB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45A627172BDA806D00F23DB0 /* Assets.xcassets */; };
@@ -14,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4531E3FF2BDE7DBD0058B1AA /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		4531E4012BDE7DCB0058B1AA /* AnalyticsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsController.swift; sourceTree = "<group>"; };
+		4531E4032BDE7DEA0058B1AA /* AddNewSugarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewSugarController.swift; sourceTree = "<group>"; };
+		4531E4052BDE7E040058B1AA /* DiaryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryController.swift; sourceTree = "<group>"; };
+		4531E4072BDE7E230058B1AA /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		4531E4092BDE93450058B1AA /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
 		45A627102BDA806B00F23DB0 /* Diabetes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diabetes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45A627132BDA806B00F23DB0 /* DiabetesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiabetesApp.swift; sourceTree = "<group>"; };
 		45A627152BDA806B00F23DB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +44,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4531E3FE2BDE7DA10058B1AA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4531E3FF2BDE7DBD0058B1AA /* MainController.swift */,
+				4531E4012BDE7DCB0058B1AA /* AnalyticsController.swift */,
+				4531E4032BDE7DEA0058B1AA /* AddNewSugarController.swift */,
+				4531E4052BDE7E040058B1AA /* DiaryController.swift */,
+				4531E4072BDE7E230058B1AA /* SettingsController.swift */,
+				4531E4092BDE93450058B1AA /* WelcomeScreen.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		45A627072BDA806B00F23DB0 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +76,7 @@
 		45A627122BDA806B00F23DB0 /* Diabetes */ = {
 			isa = PBXGroup;
 			children = (
+				4531E3FE2BDE7DA10058B1AA /* ViewController */,
 				45A627132BDA806B00F23DB0 /* DiabetesApp.swift */,
 				45A627152BDA806B00F23DB0 /* ContentView.swift */,
 				45A627172BDA806D00F23DB0 /* Assets.xcassets */,
@@ -137,7 +163,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4531E4042BDE7DEA0058B1AA /* AddNewSugarController.swift in Sources */,
+				4531E4062BDE7E040058B1AA /* DiaryController.swift in Sources */,
+				4531E4022BDE7DCB0058B1AA /* AnalyticsController.swift in Sources */,
+				4531E4082BDE7E230058B1AA /* SettingsController.swift in Sources */,
+				4531E40A2BDE93450058B1AA /* WelcomeScreen.swift in Sources */,
 				45A627162BDA806B00F23DB0 /* ContentView.swift in Sources */,
+				4531E4002BDE7DBD0058B1AA /* MainController.swift in Sources */,
 				45A627142BDA806B00F23DB0 /* DiabetesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
