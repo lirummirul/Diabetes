@@ -18,6 +18,10 @@
 		45A627182BDA806D00F23DB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45A627172BDA806D00F23DB0 /* Assets.xcassets */; };
 		45A6271B2BDA806D00F23DB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45A6271A2BDA806D00F23DB0 /* Preview Assets.xcassets */; };
 		45ECFD4A2BF4F0DD00C4B83C /* SugarPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ECFD492BF4F0DD00C4B83C /* SugarPicker.swift */; };
+		45ECFD4E2BF5117600C4B83C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45ECFD4D2BF5117600C4B83C /* GoogleService-Info.plist */; };
+		45ECFD512BF525F900C4B83C /* TreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ECFD502BF525F900C4B83C /* TreeView.swift */; };
+		45ECFD532BF5261900C4B83C /* LeafView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ECFD522BF5261900C4B83C /* LeafView.swift */; };
+		45ECFD552BF52FCA00C4B83C /* StaticLeafView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ECFD542BF52FCA00C4B83C /* StaticLeafView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,10 @@
 		45A627172BDA806D00F23DB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45A6271A2BDA806D00F23DB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		45ECFD492BF4F0DD00C4B83C /* SugarPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarPicker.swift; sourceTree = "<group>"; };
+		45ECFD4D2BF5117600C4B83C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		45ECFD502BF525F900C4B83C /* TreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeView.swift; sourceTree = "<group>"; };
+		45ECFD522BF5261900C4B83C /* LeafView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafView.swift; sourceTree = "<group>"; };
+		45ECFD542BF52FCA00C4B83C /* StaticLeafView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticLeafView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,7 @@
 				45A627132BDA806B00F23DB0 /* DiabetesApp.swift */,
 				45A627152BDA806B00F23DB0 /* ContentView.swift */,
 				45A627172BDA806D00F23DB0 /* Assets.xcassets */,
+				45ECFD4D2BF5117600C4B83C /* GoogleService-Info.plist */,
 				45A627192BDA806D00F23DB0 /* Preview Content */,
 			);
 			path = Diabetes;
@@ -106,10 +115,21 @@
 		45ECFD4C2BF4FD6E00C4B83C /* mainView */ = {
 			isa = PBXGroup;
 			children = (
+				45ECFD4F2BF525E900C4B83C /* Tree */,
 				4531E3FF2BDE7DBD0058B1AA /* MainController.swift */,
 				4531E4092BDE93450058B1AA /* WelcomeScreen.swift */,
 			);
 			path = mainView;
+			sourceTree = "<group>";
+		};
+		45ECFD4F2BF525E900C4B83C /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				45ECFD502BF525F900C4B83C /* TreeView.swift */,
+				45ECFD522BF5261900C4B83C /* LeafView.swift */,
+				45ECFD542BF52FCA00C4B83C /* StaticLeafView.swift */,
+			);
+			path = Tree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +192,7 @@
 			files = (
 				45A6271B2BDA806D00F23DB0 /* Preview Assets.xcassets in Resources */,
 				45A627182BDA806D00F23DB0 /* Assets.xcassets in Resources */,
+				45ECFD4E2BF5117600C4B83C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,11 +203,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45ECFD532BF5261900C4B83C /* LeafView.swift in Sources */,
 				4531E4042BDE7DEA0058B1AA /* AddNewSugarController.swift in Sources */,
 				4531E4062BDE7E040058B1AA /* DiaryController.swift in Sources */,
 				4531E4022BDE7DCB0058B1AA /* AnalyticsController.swift in Sources */,
 				4531E4082BDE7E230058B1AA /* SettingsController.swift in Sources */,
 				4531E40A2BDE93450058B1AA /* WelcomeScreen.swift in Sources */,
+				45ECFD552BF52FCA00C4B83C /* StaticLeafView.swift in Sources */,
+				45ECFD512BF525F900C4B83C /* TreeView.swift in Sources */,
 				45ECFD4A2BF4F0DD00C4B83C /* SugarPicker.swift in Sources */,
 				45A627162BDA806B00F23DB0 /* ContentView.swift in Sources */,
 				4531E4002BDE7DBD0058B1AA /* MainController.swift in Sources */,
