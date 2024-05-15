@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct DiaryController: View {
+       
     var body: some View {
-            Text("Hello, World!4")
-        }
+        Text("ssss")
+    }
+
 }
 
 
